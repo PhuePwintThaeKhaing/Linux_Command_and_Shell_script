@@ -1,4 +1,4 @@
-# ${1:Bootcamp}
+#Bootcamp
 TODO: To learn Git, Github and Ruby language
 ## Installation
 TODO: Git installation

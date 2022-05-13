@@ -24,8 +24,3 @@ echo "$(cal)"
 
 #Single quote
 echo 'text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER'
-
-
-
-
-

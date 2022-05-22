@@ -7,7 +7,7 @@ else
 fi
 
 ##To run
-## ./data_output..sh | cat
-## ./data_output..sh > capture.txt
+## ./data_output.sh | cat
+## ./data_output.sh > capture.txt
 ## cat capture.txt
-## ./data_output..sh
+## ./data_output.sh

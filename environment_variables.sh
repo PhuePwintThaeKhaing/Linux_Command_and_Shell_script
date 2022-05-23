@@ -7,8 +7,8 @@ do
 done
 
 echo "round 1"
-echo $VAR
-echo $VAR1
+echo $1
+echo $2
 
 for entries in $(./export.bash); 
 do
@@ -17,5 +17,5 @@ do
 done
 
 echo "round 2"
-echo $VAR
-echo $VAR1
+echo $1
+echo $2

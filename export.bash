@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "VAR=HELLO THERE"
-echo "VAR1=HI THERE"
+echo $1
+echo $2

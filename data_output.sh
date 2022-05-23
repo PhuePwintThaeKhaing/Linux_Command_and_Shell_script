@@ -1,13 +1,13 @@
 #!/bin/bash
 if [ -t 1 ]; 
 then
-  echo stdout is going to the terminal window
+  echo $1 > capture.txt
 else
   echo stdout is being redirected or piped
 fi
 
 ##To run
 ## ./data_output.sh | cat
-## ./data_output.sh > capture.txt
+## ./data_output.sh "Hello World"
 ## cat capture.txt
 ## ./data_output.sh

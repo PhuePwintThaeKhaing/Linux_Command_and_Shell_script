@@ -13,3 +13,4 @@ case $res in
   y) echo "Goodbye" ;;
   n) echo "Sorry, this is the end." ;;
 esac
+##use exec

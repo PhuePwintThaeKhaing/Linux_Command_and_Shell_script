@@ -1,0 +1,31 @@
+##Shell Variable
+$ test_var="Hello Pinky"
+$ set | grep test_var
+Output>test_var='Hello Pinky'
+$ echo $test_var
+Output>Hello Pinky
+$ bash
+$ echo $test_var
+Output> nothing
+$ exit
+Output>exit 
+
+##Environment Variable
+$ export test_var
+$ printenv | grep test_var
+Output>test_var=Hello Pinky
+$ bash 
+$ echo $test_var
+Output>Hello Pinky
+$ exit
+Output>exit
+
+##Demoting env var
+$ export -n test_var
+$ printenv | grep test_var
+Output>nothing
+
+##Unsetting Var
+$ unset test_var
+$ echo $test_var
+Output>nothing
